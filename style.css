@@ -1,0 +1,130 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #0f2e55;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #e7edf0;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(1, 2, 15);
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #123953;
+    color: rgb(0, 0, 0);
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    background-color: #082e38;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: rgb(6, 43, 97);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(3, 23, 41, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #02121b;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #052e24;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #051722;
+    color: rgb(94, 146, 148);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #071a25;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service {
+        width: 100%;
+    }
+
+    header nav ul {
+        text-align: center;
+        float: none;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
